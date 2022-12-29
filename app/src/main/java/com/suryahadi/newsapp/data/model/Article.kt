@@ -5,7 +5,9 @@ import androidx.room.Entity
 import androidx.room.PrimaryKey
 import com.suryahadi.newsapp.util.DateUtil
 import kotlinx.android.parcel.Parcelize
-
+/**
+ * untuk memprentasikan entity dari artikel.
+ */
 @Parcelize
 @Entity(tableName = "article_table")
 data class Article(

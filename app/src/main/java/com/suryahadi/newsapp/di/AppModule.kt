@@ -8,7 +8,7 @@ import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.SupervisorJob
 import javax.inject.Qualifier
 import javax.inject.Singleton
-
+// fungsi untuk ApiModule dan DatabseModule
 @Module
 @InstallIn(SingletonComponent::class)
 object AppModule {

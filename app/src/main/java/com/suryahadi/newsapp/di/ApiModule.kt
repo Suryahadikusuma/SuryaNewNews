@@ -12,6 +12,7 @@ import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
 import javax.inject.Singleton
 
+// untuk mengotomatiskan injeksi dan okhttp3 dan Retrofit untuk request URL menggunakan dagger.
 @Module
 @InstallIn(SingletonComponent::class)
 object ApiModule {

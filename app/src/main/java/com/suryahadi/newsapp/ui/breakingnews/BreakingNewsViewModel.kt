@@ -14,7 +14,7 @@ import kotlinx.coroutines.launch
 import retrofit2.Response
 import java.io.IOException
 import javax.inject.Inject
-
+// untuk menghubungkan data, event, dan proses yang terjadi pada fragment
 @HiltViewModel
 class BreakingNewsViewModel @Inject constructor(
     private val newsRepository: NewsRepository,
@@ -26,7 +26,7 @@ class BreakingNewsViewModel @Inject constructor(
     var breakingNewsResponse: NewsResponse? = null
 
     init {
-        getBreakingNews("tr")
+        getBreakingNews("id")
     }
 
     fun getBreakingNews(countryCode: String) = viewModelScope.launch {

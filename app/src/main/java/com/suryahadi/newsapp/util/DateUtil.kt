@@ -2,7 +2,7 @@ package com.suryahadi.newsapp.util
 
 import java.text.SimpleDateFormat
 import java.util.*
-
+// untuk mengatur  tanggal dan waktu local dari device
 class DateUtil{
 
     companion object{

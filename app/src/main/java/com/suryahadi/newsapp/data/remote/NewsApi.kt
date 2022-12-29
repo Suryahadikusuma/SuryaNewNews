@@ -8,13 +8,15 @@ import retrofit2.http.Query
 
 interface NewsApi {
 
+    // untuk mengambil berita utama/teratas.
     @GET("v2/top-headlines")
     suspend fun getBreakingNews(
-        @Query("country") countryCode: String = "tr",
+        @Query("country") countryCode: String = "id",
         @Query("page") pageNumber: Int = 1,
         @Query("apiKey") apiKey: String = API_KEY
     ): Response<NewsResponse>
 
+    // untuk mengambil semua berita dan pencarian berita.
     @GET("v2/everything")
     suspend fun searchForNews(
         @Query("q") searchQuery: String,

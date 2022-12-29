@@ -8,7 +8,9 @@ import com.suryahadi.newsapp.di.ApplicationScope
 import kotlinx.coroutines.CoroutineScope
 import javax.inject.Inject
 import javax.inject.Provider
-
+/**
+ * untuk membuat database.
+ */
 @Database(entities = [Article::class], version = 2)
 @TypeConverters(Converters::class)
 abstract class ArticleDatabase : RoomDatabase() {

@@ -7,7 +7,7 @@ import androidx.navigation.ui.setupWithNavController
 import com.suryahadi.newsapp.R
 import dagger.hilt.android.AndroidEntryPoint
 import kotlinx.android.synthetic.main.activity_news.*
-
+// merupakan base dari semua tampilan.
 @AndroidEntryPoint
 class NewsActivity : AppCompatActivity() {
 

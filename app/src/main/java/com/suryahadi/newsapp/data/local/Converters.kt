@@ -2,7 +2,9 @@ package com.suryahadi.newsapp.data.local
 
 import androidx.room.TypeConverter
 import com.suryahadi.newsapp.data.model.Source
-
+/**
+ * untuk mengkonfersi data.
+ */
 class Converters {
 
     @TypeConverter

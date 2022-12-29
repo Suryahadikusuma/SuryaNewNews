@@ -18,7 +18,7 @@ import com.suryahadi.newsapp.util.QUERY_PAGE_SIZE
 import com.suryahadi.newsapp.util.Resource
 import dagger.hilt.android.AndroidEntryPoint
 import kotlinx.android.synthetic.main.fragment_breaking_news.*
-
+// untuk mengatur tata letak dari layout.
 private const val TAG = "BreakingNewsFragment"
 @AndroidEntryPoint
 class BreakingNewsFragment : Fragment(R.layout.fragment_breaking_news), ArticlesAdapter.OnItemClickListener {

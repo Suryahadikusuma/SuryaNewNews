@@ -9,7 +9,7 @@ import dagger.Provides
 import dagger.hilt.InstallIn
 import dagger.hilt.components.SingletonComponent
 import javax.inject.Singleton
-
+// untuk memasukan data pada database menggunakan dagger.
 @Module
 @InstallIn(SingletonComponent::class)
 object DatabaseModule {
